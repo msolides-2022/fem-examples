@@ -1,4 +1,4 @@
-# Fracture Mechanics: numerical examples
+# Solid Mechanics: numerical examples
 
 This repository collects example of finite element solvers used in Solid Mechanics Master of [Sorbonne Université](http://master.spi.sorbonne-universite.fr/fr/mecanique-des-solides-et-des-structures.html),
 
