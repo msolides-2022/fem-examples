@@ -11,4 +11,4 @@ This repository collects example of finite element solvers used in Solid Mechani
 
 You can run interactively the notebooks of this tutorials on Binder, by clicking here:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/msolides-2022/fracture/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/msolides-2022/fem-examples/HEAD?labpath=01-LinearElasticity.ipynb)
