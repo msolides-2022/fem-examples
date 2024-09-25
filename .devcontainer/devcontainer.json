@@ -1,29 +1,24 @@
-{
-  "name": "FEniCSx",
-  "dockerFile": "../docker/Dockerfile",
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+{   "name": "FEniCSx-0.8.0",
+    "build": {
+    "dockerFile": "../docker/Dockerfile",
+    }
+  "hostRequirements": {
+    "cpus": 2
   },
-  "extensions": [
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter",
-    "ms-toolsai.jupyter-keymap",
-    "ms-toolsai.jupyter-renderers",
-    "vscode-icons-team.vscode-icons",
-    "wayou.vscode-todo-highlight",
-    "timonwong.shellcheck"
-    ],
-  "forwardPorts": [
-    8888
-  ],
-  "mounts": [
-    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
-  ],
-  "runArgs": [
-    "--cap-add=SYS_PTRACE",
-    "--security-opt",
-    "seccomp=unconfined"
-  ],
-  "postCreateCommand": "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root"
+  "waitFor": "onCreateCommand",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-renderers",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  }
 }
