@@ -1,5 +1,5 @@
 {   "name": "FEniCSx-0.8.0",
-    "dockerFile": "../docker/Dockerfile",
+    "dockerFile": "Dockerfile",
 	"customizations": {
 		"vscode": {
 			"extensions": [
