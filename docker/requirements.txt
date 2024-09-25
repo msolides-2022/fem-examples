@@ -4,12 +4,12 @@ scipy
 pyaml
 
 # Pyvista
-panel 
-#pyvista
+vtk
+pyvista
 
 # Jupyter-book
 jupyter-book
-#nbconvert
+nbconvert
 jupytext
 
 # Meshio and gmsh

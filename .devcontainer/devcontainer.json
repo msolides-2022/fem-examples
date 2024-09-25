@@ -6,6 +6,11 @@
                 "ms-python.python",
 				"ms-python.vscode-pylance",
                 "ms-toolsai.jupyter",
+                "ms-vscode.azurecli",
+                "kevinrose.vsc-python-indent",
+                "ms-python.debugpy",
+                "donjayamanne.python-extension-pack",
+                "charliermarsh.ruff",
             ],
             }
 		}
