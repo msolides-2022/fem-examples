@@ -1,6 +1,6 @@
 {   "name": "FEniCSx-0.8.0",
     "build": {
-    "dockerFile": "../docker/Dockerfile",
+    "dockerFile": "../docker/Dockerfile"
     },
   "hostRequirements": {
     "cpus": 2
@@ -14,5 +14,4 @@
         "vscode-icons-team.vscode-icons"
       ]
     }
-  }
 }
