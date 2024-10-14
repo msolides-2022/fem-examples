@@ -9,10 +9,11 @@ This repository collects example of finite element solvers used in Solid Mechani
 
 * You can find some links to online resources in the file [LINKS.md](LINKS.md)
 
-You can run interactively the notebooks of this tutorials on Binder, by clicking here:
+You can run interactively the notebooks of this tutorial on Binder, by clicking here:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/msolides-2022/fem-examples/HEAD?labpath=01-LinearElasticity.ipynb)
 
+## Local installation 
 
 ### Docker
 
@@ -50,9 +51,3 @@ To create the conda environment and activate it
 conda env create -f fenicsx-mmc.yml
 conda activate fenicsx-fracture
 ```
-
-### Binder
-
-Although we recommend executing the notebook locally, you can also use the cloud-based binder service to execute the notebooks:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/newfrac/fenicsx-fracture/HEAD)
