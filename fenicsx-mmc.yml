@@ -1,0 +1,28 @@
+name: fenicsx-mmc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fenics-dolfinx==0.8.0
+  - matplotlib
+  - numba
+  - numpy==1.26
+  - sympy
+  - scipy
+  - pip
+  - gmsh
+  - python-gmsh
+  - pythreejs
+  - jupyter-book
+  - autopep8
+  - black
+  - flake8
+  - autoflake
+  - pyaml
+  - pandas
+  - jupyterlab
+  - pip
+  - pyvista
+  - ipygany
+  - jupytext
+  - ipyparallel
