@@ -5,7 +5,7 @@ This repository collects example of finite element solvers used in Solid Mechani
 * Teachers:
     * Corrado Maurini (corrado.maurini@sorbonne-universite.fr) 
 
-* We will use for this numerical tutorials the python finite element package `FEniCS/dolfinx` (version `0.9.0`). 
+* We will use for this numerical tutorials the python finite element package `FEniCS/dolfinx` (version `0.8.0`). 
 
 * You can find some links to online resources in the file [LINKS.md](LINKS.md)
 
@@ -17,6 +17,13 @@ You can run interactively the notebooks of this tutorial on Binder, by clicking 
 or on codespace:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/msolides-2022/fem-examples)
+
+## Further resources
+
+You can find further resources on the basic of finite elements and dolfinx at the following links:
+
+- http://jsdokken.com/FEniCS23-tutorial/README.html
+- https://jsdokken.com/dolfinx-tutorial/
 
 ## Local installation 
 
