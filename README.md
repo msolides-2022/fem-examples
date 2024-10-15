@@ -14,6 +14,10 @@ You can run interactively the notebooks of this tutorial on Binder, by clicking 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/msolides-2022/fem-examples/HEAD
 )
 
+or on codespace:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/msolides-2022/fem-examples)
+
 ## Local installation 
 
 ### Docker
