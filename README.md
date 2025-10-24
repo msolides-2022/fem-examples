@@ -61,5 +61,5 @@ To create the conda environment and activate it
 
 ```bash
 conda env create -f fenicsx-mmc.yml
-conda activate fenicsx-fracture
+conda activate fenicsx-mmc
 ```
