@@ -21,3 +21,9 @@ jitfailure*
 
 __pycache__
 
+
+# Maillages générés (gmsh)
+*.msh
+
+# Éditeurs
+.vscode/
