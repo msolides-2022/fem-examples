@@ -54,8 +54,9 @@ gmsh.option.setNumber("General.Terminal", 1)
 model.mesh.setOrder(mesh_order)
 gmsh.option.setNumber("General.Terminal", 0)
 # Import the mesh in dolfinx
-from dolfinx.io import gmshio
-domain, cell_tags, facet_tags = gmshio.model_to_mesh(model, mesh_comm, model_rank, gdim=gdim)
+from dolfinx.io import gmsh as gmshio
+mesh_data = gmshio.model_to_mesh(model, mesh_comm, model_rank, gdim=gdim)
+domain, cell_tags, facet_tags = mesh_data.mesh, mesh_data.cell_tags, mesh_data.facet_tags
 domain.name = "composite"
 cell_tags.name = f"{domain.name}_cells"
 facet_tags.name = f"{domain.name}_facets"

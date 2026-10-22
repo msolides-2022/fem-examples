@@ -5,7 +5,7 @@ This repository collects example of finite element solvers used in Solid Mechani
 * Teachers:
     * Corrado Maurini (corrado.maurini@sorbonne-universite.fr) 
 
-* We will use for this numerical tutorials the python finite element package `FEniCS/dolfinx` (version `0.8.0`). 
+* We will use for this numerical tutorials the python finite element package `FEniCS/dolfinx` (version `0.11`). 
 
 * You can find some links to online resources in the file [LINKS.md](LINKS.md)
 
@@ -38,7 +38,7 @@ Otherwise download and unzip the file  `https://github.com/msolides-2022/fem-exa
 3. To build a docker image for this documentation, you can run from the root of the downloaded repository (use the `PowerShell` if you are on Windows)
 
 ```
-docker build -t fenicsx-mmc -f docker/Dockerfile .
+docker build -t fenicsx-mmc -f docker/Dockerfile docker/
 ```
 
 4. To create a one-time usage container you can call:
